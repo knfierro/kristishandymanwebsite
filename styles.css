@@ -28,7 +28,7 @@ body {
 
 }
 body, html {
-  overflow-x: hidden;
+  overflow-x: hidden; /* Prevent horizontal scrolling on mobile devices */
 }
 h1 {
     font-size: 4.5rem;
@@ -560,6 +560,21 @@ color: black;
     text-align: center;
 }
 /*--------------------MEDIA QUIERIES-------------------*/
+@media screen and (max-width: 480px) {
+    
+    .process-block {
+    padding: 2rem 0rem;
+    width: 100%;
+}
+    footer {
+        padding: 3rem 1rem; /* Reduced padding on mobile */      
+
+    }
+    .footer-items p {
+        font-size: 12px;
+    }
+}
+
 
 /*Everthing bigger than 480*/
 @media screen and (min-width: 480px) {
