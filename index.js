@@ -31,11 +31,11 @@
         const nextBtn = document.getElementById('nextBtn');
         
         const imageData = [
-            { default: 'assets/livingroomwithplant.jpg', hover: 'https://picsum.photos/600/500?random=2' },
-            { default: 'https://picsum.photos/600/500?random=3', hover: 'https://picsum.photos/600/500?random=4' },
-            { default: 'https://picsum.photos/600/500?random=5', hover: 'https://picsum.photos/600/500?random=6' },
-            { default: 'https://picsum.photos/600/500?random=7', hover: 'https://picsum.photos/600/500?random=8' },
-            { default: 'https://picsum.photos/600/500?random=9', hover: 'https://picsum.photos/600/500?random=10' }
+            { default: './assets/Kitchen-After.png', hover: './assets/Kitchen-before.png' },
+            { default: './assets/Room2-After.png', hover: './assets/Room2-Before.png' },
+            { default: './assets/Room3-After.png', hover: './assets/Room3-Before.png' },
+            { default: './assets/Room4-After.png', hover: './assets/Room4-Before.png' },
+
         ];
 
         let currentIndex = 0;

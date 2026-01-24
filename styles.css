@@ -41,6 +41,7 @@ h1 {
 
 h3 {
       letter-spacing: 10px;
+        text-align: center;
 }
 h4 {
     font-family: 'Noto Sans Jp', sans-serif;
@@ -313,9 +314,10 @@ letter-spacing: 2.5px;
 .service-subtitle {
     background-color: black;
     color: rgb(221, 217, 217);
+    font-size: clamp(.5rem, calc(1rem + (100vw - 750px) * (0.3 / 100)), 1.5rem);
     width: 95%;
     height: 40px;
-     padding: 0.6rem 1rem;
+    padding: 0.6rem 1rem;
 }
 .service-titles {
     padding-bottom: 1.5rem;
@@ -335,7 +337,6 @@ display: flex;
 justify-content: space-between;
 border-bottom: solid 1px black;
 }
-
 
 .icon-title {
     display: flex;
@@ -417,14 +418,14 @@ border-bottom: solid 1px black;
     justify-content: center;
     gap: 10rem;
     animation: spin 10s infinite linear;
-    padding-right: 5rem;
+    padding-right: 10rem;
 }
 .selling-point {
     height: auto;
     padding: 3rem;
     text-align: center;
     align-content: center;
-    flex: 0 0 3em;
+    flex: 0 0 4em;
 }
 @keyframes spin {
     0% { transform: translateX(0%); }
@@ -438,11 +439,11 @@ border-bottom: solid 1px black;
 #projects {
 min-width: 100%; 
 min-height: 80vh;
-text-align: center;
 font-weight: 100;
 font-size: 2rem;
 padding: 5rem 6rem;
 display: flex;
+justify-content: center;
 flex-direction: column;
 }
 .project-image {
