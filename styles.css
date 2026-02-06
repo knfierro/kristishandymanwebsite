@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    --main-black: black;
+    --main-black: rgb(28, 27, 27);
     --white-color: rgb(221, 217, 217); 
     --off-white-color: rgb(227, 211, 190);
     --text-color: rgb(17, 10, 10); 
@@ -149,25 +149,27 @@ h3 {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-top: clamp(20%, 20%, 50%);
-    gap: 10px;
+    padding-top: clamp(30vh, 35vh, 45vh);
+    gap: .5rem;
     color: var(--off-white-color);
     width: 90%;
 }
 
 #hero-subheadline {
-    font-size: clamp(1rem, 2.5vw, 1.3rem);
-    text-transform: uppercase;
+    font-size: clamp(2rem, 4vw, 2.5rem);
     font-weight: 200;
-    letter-spacing: 5px;
     color: black;
-    font-family: 'Prata', serif;
+    font-family: 'Pinyon Script', cursive;
 }
 
  #hero-headline {
-    font-size: clamp(2rem, 5rem, 7rem);
-    font-weight: 300;
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-weight: 200;
+    letter-spacing: 7px;
+    font-family: 'Prata', serif;
     color: var(--main-black);
+    text-transform: uppercase;
+    padding: clamp(0.5rem, 5vh, 1.5rem);
     }
 
 .underline-animation {
@@ -677,17 +679,6 @@ footer {
 
     footer {
         padding: 5rem 6rem;
-    }
-}
-
-/* =========================
-   ≤ 1270px
-========================= */
-@media (max-width: 1270px) {
-
-    .hero-text {
-        padding-top: clamp(30vh, 35vh, 45vh);
-        gap: 20px;
     }
 }
 
