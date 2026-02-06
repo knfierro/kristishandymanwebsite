@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Chandia PERSONAL USE ONLY';
+    src: url('ChandiaPERSONALUSEONLY-Regular.woff2') format('woff2'),
+        url('ChandiaPERSONALUSEONLY-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
