@@ -166,7 +166,6 @@ h3 {
 
  #hero-headline {
     font-size: clamp(2rem, 5rem, 7rem);
-    font-family: "Ballet", cursive;
     font-weight: 300;
     color: var(--main-black);
     }
@@ -372,7 +371,7 @@ min-width: 100%;
 min-height: 80vh;
 font-weight: 100;
 font-size: 2rem;
-padding: 5rem 6rem;
+padding: 5rem 3rem;
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -404,7 +403,7 @@ flex-direction: column;
             transition: transform 0.4s ease;
         }
         .carousel-item {
-            min-width: 600px;
+            min-width: 800px;
             height: 500px;
             background-size: cover;
             background-position: center;
@@ -419,7 +418,6 @@ flex-direction: column;
             position: absolute;
             top: 50%;
             transform: translateY(-60%);
-            background: rgba(255, 255, 255, 0.9);
             border: none;
             width: 50px;
             height: 20px;
@@ -481,6 +479,8 @@ padding-bottom: 1rem;
 }
 .process-title {
     font-size: 1.5rem;
+    font-family: "Prata", serif;
+     padding-bottom: 1rem;
 }
 .process-block {
     line-height: 2;
